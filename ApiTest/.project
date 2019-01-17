@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.robotframework.ide.eclipse.main.plugin.robotNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>libspecs/urllib3.py</name>
+			<type>1</type>
+			<location>/usr/local/lib/python3.7/site-packages/urllib3/__init__.py</location>
+		</link>
+	</linkedResources>
 </projectDescription>
