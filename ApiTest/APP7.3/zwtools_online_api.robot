@@ -1,28 +1,27 @@
 *** Comments ***
 前端页面：https://webapp.jzb.com/work_tools/
 
-API：
-	首页
-	作文详情
-	作文列表筛选项
-	作文列表
-	单元作文详情
-	单元作文列表筛选项
-	单元作文列表
-	用户收藏作文分组列表
-	用户收藏作文列表
-	用户添加收藏
-	用户取消收藏
-	搜索热词
-	搜索
-	分组筛选+搜索
+首页API
+作文详情API
+作文列表筛选项API
+作文列表API
+单元作文详情API
+单元作文列表筛选项API
+单元作文列表API
+用户收藏作文分组列表API
+用户收藏作文列表API
+用户添加收藏API
+用户取消收藏API
+搜索热词API
+搜索API
+分组筛选+搜索API
 
 *** Settings ***
 Library    RequestsLibrary
 
 Suite Setup    Connect Session
-Suite Teardown    Delete All Sessions
-Test Setup    Setup Test
+Suite Teardown    Delete All Sessions   
+Test Setup    Setup Test     
 Test Teardown    Teardown Test
 
 *** Variables ***
