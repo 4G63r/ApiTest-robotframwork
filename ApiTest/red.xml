@@ -4,7 +4,10 @@
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="RequestsLibrary" path="/Library/Python/2.7/site-packages"/>
     <referencedLibrary type="PYTHON" name="urllib3" path="/usr/local/lib/python3.7/site-packages"/>
-    <pythonpath/>
+    <referencedLibrary type="PYTHON" name="MyLibrary" path="/usr/local/lib/python3.7/site-packages"/>
+    <pythonpath>
+        <path location="/usr/local/lib/python3.7/site-packages/MyLibrary"/>
+    </pythonpath>
     <classpath/>
     <excludedForValidation/>
     <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
